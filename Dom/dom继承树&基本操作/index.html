@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom继承树</title>
+</head>
+<body>
+<div></div>
+</body>
+</html>
+<script>
+    /*
+    *  document的最顶层也是继承自Object对象的原型！
+    *  document是HTMLDocument的一个实例，
+    *  HTMLDocument继承自Document,
+    *  Document继承自Node，
+    *  Node继承自EventTarget,
+    *  而EventTarget的__proto__指向Object.prototype;
+    *
+    *  而元素div是HTMLDivElement的一个实例
+    *  HTMLDivElement继承自Element
+    *  Element同样继承自Node
+    *  如果以上条件成立，那么元素div也可以调用toString方法
+    *
+    * getElementById方法定义在Document.prototype上，即Element节点上不能使用。
+    * getElementsByName方法定义在HTMLDocument.prototype上，即非html中的document不能使用（xml document,Element）
+    * getElementsByTagName方法定义在Document.prototype和Element.prototype上
+    * HTMLDocument.prototype定义了一些常用属性，body，head分别指HTML文档中的标签
+    * Document.prototype上定义了documentElement属性，指代文档的根元素，在HTML文档中，它总指代元素
+    * document.documentElement代表html
+    * getElementsByClassName、querySelectorAll、querySelectorAll在Document.prototype,Element.prototype类中均有定义
+    * */
+
+    let div = document.getElementsByTagName('div')[0];
+
+    console.log(div.__proto__=== HTMLDivElement.prototype);//true
+
+    console.log(div.toString())  // [object HTMLDivElement]
+
+    // 未完待续
+</script>

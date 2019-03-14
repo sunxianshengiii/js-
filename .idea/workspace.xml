@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3e4f3b-0f28-4eac-8b33-524021584483" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dom/获取元素&amp;获取节点/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dom/获取元素&amp;获取节点/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dom/index.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/DOM继承树简图.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dom/demo继承树&amp;基本操作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dom/获取元素&amp;获取节点/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dom/获取元素&amp;节点/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dom/获取元素&amp;获取节点/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dom/获取元素&amp;节点/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,12 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;获取节点/index.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;节点/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-605">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="120">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -30,7 +32,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apply&amp;call/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/递归/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +78,9 @@
         <option value="$PROJECT_DIR$/Dom/index.js" />
         <option value="$PROJECT_DIR$/Dom/获取元素&amp;回去节点/index.js" />
         <option value="$PROJECT_DIR$/Dom/获取元素&amp;获取节点/index.js" />
+        <option value="$PROJECT_DIR$/Dom/demo继承树&amp;基本操作/index.html" />
+        <option value="$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.html" />
+        <option value="$PROJECT_DIR$/递归/index.js" />
       </list>
     </option>
   </component>
@@ -85,7 +124,39 @@
             <path>
               <item name="js-" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="apply&amp;call" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
               <item name="Dom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="Dom" type="462c0819:PsiDirectoryNode" />
+              <item name="dom继承树&amp;基本操作" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="Dom" type="462c0819:PsiDirectoryNode" />
+              <item name="获取元素&amp;节点" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="浏览器页面时间线" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="递归" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,6 +194,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dom/dom继承树&amp;基本操作" />
+      <recent name="$PROJECT_DIR$/Dom" />
       <recent name="$PROJECT_DIR$/Dom/获取元素&amp;回去节点" />
     </key>
   </component>
@@ -138,6 +211,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/递归" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -148,33 +229,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552540557564</updated>
-      <workItem from="1552540558763" duration="6370000" />
+      <workItem from="1552540558763" duration="12472000" />
+      <workItem from="1552566933289" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6370000" />
+    <option name="totallyTimeSpent" value="13032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,20 +267,65 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;获取节点/index.html">
+    <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;节点/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;节点/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;获取节点/index.js">
+    <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;节点/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-605">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器页面时间线/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apply&amp;call/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/递归/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
