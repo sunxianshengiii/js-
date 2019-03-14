@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .test {
+        width: 200px;
+        height: 200px;
+        color:white;
+    }
+</style>
+<body>
+<div>
+    <a href="#/aaaa/bcd">hash=aaaa/bcd 匹配/aaaa/:id</a>
+</div>
+<div>
+    <a href="#/bbbb">hash=bbbb 匹配/bbbb(/:name)</a>
+</div>
+<div>
+    <a href="#/bbbb/ddd">hash=bbbb/ddd 匹配/bbbb(/:name)</a>
+</div>
+<div>
+    <a href="#/cccc/s/d">hash=cccc/s/d 匹配cccc/*</a>
+</div>
+<div class="test" id="test">
+</div>
+</body>
+<script src="router.js"></script>
+<script>
+    var router = new Router();
+    var test = document.getElementById('test')
+    router.on('/', function () {
+        test.style.backgroundColor='read';
+    })
+    router.on('/aaaa/:id', function (id) {
+        console.log(id);
+        test.style.backgroundColor='yellow';
+    })
+    router.on('/bbbb(/:name)', function (name) {
+        console.log(name);
+        test.style.backgroundColor='black';
+    })
+    router.on('/cccc/*', function (x) {
+        console.log(x);
+        test.style.backgroundColor='#575739';
+
+    })
+    router.init();
+
+</script>
+</html>

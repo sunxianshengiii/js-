@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>异步加载js</title>
+    <!--defer异步加载js,只有IE9以下浏览器可以使用,DOM树构建完毕之后执行，可以再标签内写代码-->
+    <!--<script src="index.js" defer="defer"></script>-->
+    <!--现主流浏览器都兼容，异步加载，加载完立马执行，只能引入外部文件-->
+    <!--<script src="index.js" async="async"></script>-->
+</head>
+<body>
+<button id="Btn">
+    点击加载js文件
+</button>
+</body>
+</html>
+<script>
+    // 按需加载
+    function loadScript(url, callback) {
+        let script = document.createElement("script");
+        script.type = 'text/javascript';
+        // Alert();  js文件没有下载完毕，所以会报错
+        // script.readyState = 'loaded';
+        if (script.readyState) {
+            script.onreadystatechange = function () { //IE 下
+                if (script.readyState === 'loaded' || script.readyState === 'complete') {
+                    callback()
+                }
+            };
+        } else {
+            script.onload = function () { //IE script没有load事件
+                callback()
+            };
+        }
+        script.src = url;
+        document.head.appendChild(script)
+    }
+
+    Btn.addEventListener('click', () => {
+            loadScript('index.js',()=>Alert())
+    })
+
+
+</script>

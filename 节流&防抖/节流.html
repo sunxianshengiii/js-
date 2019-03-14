@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>节流</title>
+</head>
+<body>
+
+<button id="throttle">点我节流！</button>
+
+<script>
+    // 节流：指定时间间隔内只会执行一次任务。
+
+    window.onload = function() {
+        // 1、获取按钮，绑定点击事件
+        var myThrottle = document.getElementById("throttle");
+        myThrottle.addEventListener("click", throttle(sayThrottle));
+    }
+
+    // 2、节流函数体
+    function throttle(fn) {
+        // 4、通过闭包保存一个标记
+        let canRun = true;
+        return function() {
+            // 5、在函数开头判断标志是否为 true，不为 true 则中断函数
+            if(!canRun) {
+                return;
+            }
+            // 6、将 canRun 设置为 false，防止执行之前再被执行
+            canRun = false;
+            // 7、定时器
+            setTimeout( () => {
+                fn.call(this, arguments);
+                // 8、执行完事件（比如调用完接口）之后，重新将这个标志设置为 true
+                canRun = true;
+            }, 1000);
+        };
+    }
+
+    // 3、需要节流的事件
+    function sayThrottle() {
+        console.log("节流成功！");
+    }
+
+</script>
+</body>
+</html>
