@@ -16,12 +16,11 @@
     *  Document继承自Node，
     *  Node继承自EventTarget,
     *  而EventTarget的__proto__指向Object.prototype;
-    *
     *  而元素div是HTMLDivElement的一个实例
-    *  HTMLDivElement继承自Element
+    *  HTMLDivElement继承自HTMLElement
+    *  HTMLElement.__proto__ ===HTMLElement
     *  Element同样继承自Node
     *  如果以上条件成立，那么元素div也可以调用toString方法
-    *
     * getElementById方法定义在Document.prototype上，即Element节点上不能使用。
     * getElementsByName方法定义在HTMLDocument.prototype上，即非html中的document不能使用（xml document,Element）
     * getElementsByTagName方法定义在Document.prototype和Element.prototype上
@@ -34,8 +33,11 @@
     let div = document.getElementsByTagName('div')[0];
 
     console.log(div.__proto__=== HTMLDivElement.prototype);//true
+    console.log(HTMLDivElement.__proto__===HTMLElement);//true
+    console.log(HTMLElement.__proto__ === Element);//true
+    console.log(Element.__proto__ === Node);//true
 
-    console.log(div.toString())  // [object HTMLDivElement]
+    // console.log(div.toString())  // [object HTMLDivElement]
 
     // 未完待续
 </script>
