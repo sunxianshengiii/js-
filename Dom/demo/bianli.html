@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>遍历元素节点的方法封装</title>
+</head>
+<body>
+<div>
+    <ul>
+        <li>
+            <span></span>
+            <p></p>
+            <span class="span"></span>
+        </li>
+    </ul>
+</div>
+</body>
+<script type="text/javascript">
+    let Dom = {
+        retParent: (ele, num) => {        //获取指定元素的，指定层级父元素
+
+            while (num && ele) {
+                ele = ele.parentElement;
+                num--;
+            }
+            return ele
+        },
+        children: (ele) => {               //获取子元素节点
+            let child = ele.childNodes;
+            let length = child.length;
+            let eleArr = [];
+
+            for (let i = 0; i < length; i++) {
+                if (child.nodeType === 1) {
+                    eleArr.push(child[i])
+                }
+            }
+            return eleArr
+        },
+        hasChildNodes: (ele) => {
+            let child = ele.childNodes;
+            let length = child.length;
+
+            for (let i = 0; i < length; i++) {
+                if (child.nodeType === 1) {
+                    return true
+                }
+            }
+            return false
+        },
+        retSibling: (ele, num) => {         //获取给定元素的兄弟节点，传入负数返回previousSibling传入正数返回nextSibling
+            while (num && ele) {
+                if (num > 0) {
+                    if (ele.nextElementSibling) {
+                        ele = ele.nextElementSibling;
+                    } else {
+                        for (ele = ele.nextSibling; ele && ele.nodeType !== 1; ele = ele.nextSibling) ;
+                    }
+                    num--
+                } else {
+                    if (ele.previousElementSibling) {
+                        ele = ele.previousElementSibling;
+                    } else {
+                        for (ele = ele.previousSibling; ele && ele.nodeType !== 1; ele = ele.previousSibling) ;
+                    }
+                    num++
+                }
+            }
+            return ele
+
+        }
+    };
+
+
+    let p = document.getElementsByTagName('p')[0];
+    console.log(Dom.retParent(p, 2));
+    console.log(Dom.retSibling(p,1))
+</script>
+</html>
