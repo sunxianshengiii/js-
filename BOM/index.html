@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>BOM</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>
+
+<script>
+    // 浏览器组成
+    /*
+*  外核 shell
+*  内核
+*            --->渲染引擎(16毫秒绘制一次)
+*            --->js引擎
+*               谷歌V8（v8能直接把js代码翻译成机械码）
+*               Firefox
+*                     TracwMonkey
+*                     JeagerMonkey
+*            --->其它
+* */
+
+    // 为了统一规格javascript兼容与ECMA标准，所以也叫ECMAScript
+
+    // 轮转事件片
+
+
+    // BOM: Browser Object Model
+    // 专门操作浏览器窗口的API没有标准, 导致浏览器兼容性问题
+    // BOM以window对象做完依托，表示浏览器窗口以及可视区域，同事window还是ECMAScript中的Global对象，因而所有的全局变量和函数都是它的属性；
+    // 在使用框架时，每个框架都有自己的widow对象及其元素构造函数的副本，且保存在frames集合中
+    // window,history, location, navigator, dom, event, screen;
+
+    // location 对象提供了与当前窗口中加载的文档有关的信息，还提供了一些导航功能;
+    console.log(window.location === document.location); //true
+    //        --->他是一个很特别的对象它既是window对象的属性，也是document的属性；
+    //                           window.location is read/write on all compliant browsers.
+    //                           document.location is read-only in Internet Explorer (at least), but read/write in Gecko-based browsers (Firefox, SeaMonkey).
+    //        --->也将URL解析成为独立的片段
+
+
+    // 返回URL中的#号后的多个字符，如果URL中不包含散列 ，则返回空字符串
+    window.location.hash;
+
+    // 返回服务器名称+端口号
+    window.location.host;
+
+    // 返回不带端口号的服务器名称
+    window.location.hostname;
+
+    // 返回当前加载页面的完整URL
+    window.location.href;
+
+    // 返回URL协议+服务器名称+端口号
+    window.location.origin;
+
+    // 返回URL中的目录+文件名
+    window.location.pathname;
+
+    // 返回端口号，如果没有端口号返回空字符串
+    window.location.port;
+
+    // 返回使用的协议http or https
+    window.location.protocol;
+
+    // 返回URL中的查询字符串，这个字符串以问号开头
+    window.location.search();
+
+
+
+    // ancestorOrigins: DOMStringList {length: 0}   预留方法，为了原生js实现页面直接传值
+    // reload: ƒ reload()               重新加载当前显示的页面：参数：无 —— 就会使用最有效的方式重新加载页面，可能从浏览器缓存中重新加载。参数：true —— 那么就会强制从服务器重新加载。
+    // replace: ƒ ()                    跳转链接，立即打开新的URL，不会在历史记录中生成一条记录，回退不可返回(等价直接替换)
+    // assign: ƒ ()                                  跳转链接，立即打开新的URL并在浏览器的历史记录中生成一条记录，回退可返回
+
+
+    // window.history
+    //返回
+    window.history.back();
+    window.history.go(-1);
+    //向前跳转
+    window.history.forward();
+    window.history.go(1);
+    //历史记录中页面总数
+    history.length;
+
+    // history.pushState(state, title, url); 添加一条历史记录，不刷新页面
+    window.history.pushState();
+
+    // history.replaceState(state, title, url); 替换当前的历史记录，不刷新页面
+    window.history.replaceState();
+
+    // 允许Web应用程序在历史导航上显式地设置默认滚动恢复行为。此属性可以是自动的（auto）或者手动的（manual）。
+    window.history.scrollRestoration;
+
+    // 返回一个表示历史堆栈顶部的状态的值。这是一种可以不必等待popstate 事件而查看状态而的方式。
+    window.history.state;
+
+
+    // Navigator对象包含有关浏览器的信息。(没有应用于 navigator 对象的公开标准，不过所有浏览器都支持该对象)
+</script>
