@@ -1,5 +1,8 @@
+
+console.log('加载成功');
+
 function Alert() {
-    alert('异步按需加载成功')
+    alert('加载成功')
 }
 
 

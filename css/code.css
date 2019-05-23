@@ -1,0 +1,16 @@
+.post-content pre code {
+    border-radius: 3px;
+    font-size: inherit;
+    margin: 0;
+    padding: 10px 20px
+}
+
+.post-content pre {
+    position: relative;
+    overflow-x: auto;
+    font-size: 14px;
+    background: none;
+    color: #4d4d4c;
+    margin: none
+}
+

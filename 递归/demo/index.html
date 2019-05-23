@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>无限极树形菜单</title>
+</head>
+<body>
+<div id="listBox">
+
+</div>
+</body>
+</html>
+<script>
+    let data = [
+        {
+            "key": "A", "children": [
+                {"key": "aaa"},
+                {
+                    "key": "aaa", "children": [
+                        {
+                            "key": "aa"
+                        },
+                        {
+                            "key": "aa", "children": [
+                                {"key": "a"},
+                                {"key": "a"},
+                                {"key": "a"}
+                            ]
+                        },
+                        {
+                            "key": "aa"
+                        },
+                        {
+                            "key": "aa"
+                        }
+
+                    ]
+                },
+                {"key": "aaa"},
+                {"key": "aaa"}
+            ]
+        },
+        {
+            "key": "B", "children": [
+                {
+                    "key": "bbb"
+                },
+                {
+                    "key": "bbb", "children": [
+
+                        {"key": 'bb'},
+                        {
+                            "key": 'bb', 'children': [
+                                {"key": "b"},
+                                {"key": "b"},
+                                {"key": "b"}
+                            ]
+                        },
+                        {"key": 'bb'},
+                        {"key": 'bb'}
+                    ]
+                },
+                {
+                    "key": "bbb"
+                },
+                {
+                    "key": "bbb"
+                }
+            ]
+        },
+        {
+            "key": "C", "children": [
+                {
+                    "key": "ccc"
+                },
+                {
+                    "key": "cc"
+                },
+                {
+                    "key": "c"
+                }
+
+            ]
+        },
+        {
+            "key": "D", "children": [
+                {
+                    "key": "ddd"
+                },
+                {
+                    "key": "dd"
+                },
+                {
+                    "key": "d"
+                }
+
+            ]
+        }
+    ];
+
+
+    // function create(data) {
+    //     for (let i = 0; i < data.length; i++) {
+    //
+    //         listStr += `<li>${data[i].key}</li>`;
+    //
+    //         if (data[i].children && data[i].children.length !== 0) {
+    //
+    //             listStr += '<ul>';
+    //
+    //             for (let j = 0; j < data[i].children.length; j++) {
+    //
+    //                 listStr += `<li>${data[i].children[j].key}</li>`;
+    //             }
+    //
+    //             listStr += '</ul>'
+    //         }
+    //     }
+    //     listStr += '</ul>';
+    //
+    //     listBox.innerHTML = listStr;
+    // }
+    //
+    // create(data)
+
+
+    let listBox = document.getElementById('listBox');
+
+    function create(data) {
+
+        let listStr = '<ul>';
+
+        for (let i = 0; i < data.length; i++) {
+
+            listStr += `<li>${data[i].key}</li>`;
+
+            if (data[i].children && data[i].children.length !== 0) listStr += create(data[i].children);
+        }
+        listStr += '</ul>';
+
+        listBox.innerHTML = listStr;
+
+        return listStr
+    }
+
+    listBox.addEventListener('click', function (e) {
+
+        let targetList = e.target.nextElementSibling;
+
+        if (targetList && targetList.nodeName === "UL") {
+
+            targetList.style.display = targetList.style.display === 'none' ? "block" : "none"
+        }
+
+    }, false);
+
+    create(data);
+
+</script>

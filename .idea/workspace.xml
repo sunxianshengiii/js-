@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3e4f3b-0f28-4eac-8b33-524021584483" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BOM/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6]/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/mvvm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/observer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/watcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terms/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terms/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terms/privacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terms/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据类型/demo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据类型/数组/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据类型/数组/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据类型/类数组/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/刮刮乐/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/刮刮乐/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/刮刮乐/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例/瀑布流/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/生成图片/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/生成图片/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/生成图片/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/生成图片/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/递归/demo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/浏览器页面时间线/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BOM/浏览器页面时间线/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BOM/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/异步加载js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/异步加载js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/异步加载js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/异步加载js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +53,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BOM/index.html">
+      <file leaf-file-name="compile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MVVM/compile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+            <state relative-caret-position="-1175">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6]/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -30,17 +74,71 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOM/浏览器页面时间线/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="570">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bianli.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dom/demo/bianli.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BOM/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+            <state relative-caret-position="337">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apply&amp;call/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/生成图片/2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/生成图片/3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="767">
+              <caret line="61" column="7" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="61" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/生成图片/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="节流.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/节流&amp;防抖/节流.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="防抖.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/节流&amp;防抖/防抖.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -51,10 +149,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML4 File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hljs</find>
+      <find>Observer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sqjs</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,6 +181,38 @@
         <option value="$PROJECT_DIR$/Dom/demo/获取元素e的第n成祖先节点.html" />
         <option value="$PROJECT_DIR$/Dom/demo/bianli.html" />
         <option value="$PROJECT_DIR$/BOM/index.html" />
+        <option value="$PROJECT_DIR$/css/code.css" />
+        <option value="$PROJECT_DIR$/数据类型/数组/index.js" />
+        <option value="$PROJECT_DIR$/数据类型/数组/index.html" />
+        <option value="$PROJECT_DIR$/数据类型/demo/index.js" />
+        <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/2.html" />
+        <option value="$PROJECT_DIR$/1.html" />
+        <option value="$PROJECT_DIR$/terms/privacy.html" />
+        <option value="$PROJECT_DIR$/1.js" />
+        <option value="$PROJECT_DIR$/terms/index.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/递归/index.html" />
+        <option value="$PROJECT_DIR$/案例/刮刮乐/index.css" />
+        <option value="$PROJECT_DIR$/案例/刮刮乐/index.html" />
+        <option value="$PROJECT_DIR$/案例/瀑布流/index.css" />
+        <option value="$PROJECT_DIR$/案例/瀑布流/index.html" />
+        <option value="$PROJECT_DIR$/案例/瀑布流/index.js" />
+        <option value="$PROJECT_DIR$/案例/刮刮乐/index.js" />
+        <option value="$PROJECT_DIR$/递归/demo/index.html" />
+        <option value="$PROJECT_DIR$/生成图片/index.html" />
+        <option value="$PROJECT_DIR$/生成图片/2.html" />
+        <option value="$PROJECT_DIR$/生成图片/3.html" />
+        <option value="$PROJECT_DIR$/案例/扫雷/saolei.js" />
+        <option value="$PROJECT_DIR$/异步加载js/index.js" />
+        <option value="$PROJECT_DIR$/异步加载js/index.html" />
+        <option value="$PROJECT_DIR$/BOM/浏览器页面时间线/index.html" />
+        <option value="$PROJECT_DIR$/ES6]/index.html" />
+        <option value="$PROJECT_DIR$/MVVM/watcher.js" />
+        <option value="$PROJECT_DIR$/MVVM/observer.js" />
+        <option value="$PROJECT_DIR$/MVVM/index.html" />
+        <option value="$PROJECT_DIR$/MVVM/mvvm.js" />
+        <option value="$PROJECT_DIR$/MVVM/compile.js" />
       </list>
     </option>
   </component>
@@ -97,10 +237,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="8" />
-    <option name="y" value="42" />
+    <option name="x" value="42" />
+    <option name="y" value="85" />
     <option name="width" value="1399" />
-    <option name="height" value="877" />
+    <option name="height" value="869" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -118,6 +258,11 @@
             <path>
               <item name="js-" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="apply&amp;call" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
               <item name="BOM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -129,12 +274,60 @@
             <path>
               <item name="js-" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-" type="462c0819:PsiDirectoryNode" />
-              <item name="Dom" type="462c0819:PsiDirectoryNode" />
+              <item name="ES6]" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js-" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-" type="462c0819:PsiDirectoryNode" />
-              <item name="递归" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="MVVM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="异步加载js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="数据类型" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="数据类型" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="数据类型" type="462c0819:PsiDirectoryNode" />
+              <item name="数组" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="数据类型" type="462c0819:PsiDirectoryNode" />
+              <item name="类数组" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="构造函数" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="生成图片" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-" type="462c0819:PsiDirectoryNode" />
+              <item name="节流&amp;防抖" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,6 +343,7 @@
     <property name="ejs.close.delimiter" value="%&gt;" />
     <property name="ejs.open.delimiter" value="&lt;%" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -170,14 +364,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSHint" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/BOM" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/递归/demo" />
+      <recent name="$PROJECT_DIR$/terms" />
+      <recent name="$PROJECT_DIR$/数据类型/类数组" />
       <recent name="$PROJECT_DIR$/BOM" />
       <recent name="$PROJECT_DIR$/Dom/dom继承树&amp;基本操作" />
-      <recent name="$PROJECT_DIR$/Dom" />
-      <recent name="$PROJECT_DIR$/Dom/获取元素&amp;回去节点" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/生成图片" />
+      <recent name="$PROJECT_DIR$/案例/瀑布流/img" />
+      <recent name="$PROJECT_DIR$/案例/瀑布流" />
+      <recent name="$PROJECT_DIR$/terms" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,15 +391,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Node.js.1.js">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js-/Dom/dom继承树&amp;基本操作/index.html" />
+    <configuration name="1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="1.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/数据类型/demo" />
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/递归" />
     <list>
       <item itemvalue="Node.js.index.js" />
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Node.js.index.js (1)" />
+      <item itemvalue="Node.js.1.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.1.js" />
+        <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.index.js" />
       </list>
@@ -219,35 +424,79 @@
       <workItem from="1552540558763" duration="12472000" />
       <workItem from="1552566933289" duration="560000" />
       <workItem from="1552568117611" duration="11700000" />
-      <workItem from="1552875335055" duration="18403000" />
+      <workItem from="1552875335055" duration="65855000" />
+      <workItem from="1553395797653" duration="7474000" />
+      <workItem from="1554190658657" duration="1937000" />
+      <workItem from="1554205267368" duration="196000" />
+      <workItem from="1554205552593" duration="505000" />
+      <workItem from="1554259987093" duration="108000" />
+      <workItem from="1554263449515" duration="1081000" />
+      <workItem from="1554704541311" duration="19569000" />
+      <workItem from="1554866402393" duration="8886000" />
+      <workItem from="1555036134873" duration="9484000" />
+      <workItem from="1555052326959" duration="44000" />
+      <workItem from="1555054744812" duration="27000" />
+      <workItem from="1555322566359" duration="58000" />
+      <workItem from="1555480897118" duration="4514000" />
+      <workItem from="1556013754784" duration="100000" />
+      <workItem from="1557039912952" duration="18295000" />
+      <workItem from="1558532899656" duration="4161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43135000" />
+    <option name="totallyTimeSpent" value="167026000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34615386" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963716" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34615386" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -255,21 +504,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;节点/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;节点/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -326,31 +566,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apply&amp;call/index.js">
+    <entry file="file://$PROJECT_DIR$/css/code.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/递归/index.js">
+    <entry file="file://$PROJECT_DIR$/1.js" />
+    <entry file="file://$PROJECT_DIR$/观察者模式/guanchaz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="585">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.js">
+    <entry file="file://$PROJECT_DIR$/terms/privacy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -361,31 +595,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;节点/index.js">
+    <entry file="file://$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="15">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dom/demo/bianli.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="246">
           <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dom/dom继承树&amp;基本操作/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dom/获取元素&amp;节点/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/递归/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/刮刮乐/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/瀑布流/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/递归/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="146" column="52" lean-forward="true" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/瀑布流/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/扫雷/saolei.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/刮刮乐/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/刮刮乐/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/扫雷/saolei.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVVM/observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVVM/watcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVVM/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVVM/mvvm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-710">
+          <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terms/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13670">
+          <caret column="181850" lean-forward="true" selection-start-column="181850" selection-end-column="181850" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/异步加载js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/异步加载js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据类型/数组/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据类型/数组/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据类型/demo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据类型/类数组/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/构造函数/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/案例/瀑布流/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成图片/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成图片/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成图片/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/节流&amp;防抖/节流.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/节流&amp;防抖/防抖.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6]/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOM/浏览器页面时间线/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="570">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOM/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+        <state relative-caret-position="337">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apply&amp;call/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVVM/compile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

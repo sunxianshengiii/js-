@@ -9,9 +9,7 @@
     <!--<script src="index.js" async="async"></script>-->
 </head>
 <body>
-<button id="Btn">
-    点击加载js文件
-</button>
+<button id="Btn">点击加载js文件</button>
 </body>
 </html>
 <script>
@@ -35,10 +33,7 @@
         script.src = url;
         document.head.appendChild(script)
     }
-
     Btn.addEventListener('click', () => {
-            loadScript('index.js',()=>Alert())
+        loadScript('index.js', () => Alert())
     })
-
-
 </script>

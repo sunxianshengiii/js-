@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        .trapezoid-bg {position: relative;}
+        .trapezoid-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;left: 0;z-index: 0;
+            transform: perspective(.5em) rotateX(-1deg);border: 1px solid #000;
+        }
+        [class*=item] {height: 60px;}
+        [class*=item]:not(:first-child)::before { border-top: none;}
+        .item-1 {width: 300px; }
+        .item-2 {width: 262px;}
+        .item-3 {width: 230px;}
+        .item-4 { width: 202px;}
+        .flex-center {display: flex;align-items: center; justify-content: center;}
+        .flex-vertical { flex-direction: column;}
+    </style>
+</head>
+<body>
+<div class="flex-center flex-vertical">
+    <div class="trapezoid-bg flex-center item-1">hello world</div>
+    <div class="trapezoid-bg flex-center item-2">hello world</div>
+    <div class="trapezoid-bg flex-center item-3">hello world</div>
+    <div class="trapezoid-bg flex-center item-4">hello world</div>
+</div>
+
+
+</body>
+</html>

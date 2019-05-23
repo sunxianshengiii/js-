@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>MVVM</title>
+</head>
+<body>
+<div id="app">
+    <div>{{message.a}}</div>
+    <input type="text" v-model="message.b">
+    <h1>{{message.b}}</h1>
+</div>
+</body>
+</html>
+<script src="watcher.js"></script>
+<script src="observer.js"></script>
+<script src="compile.js"></script>
+<script src="mvvm.js"></script>
+<script>
+    //模板编译
+    //数据劫持     Object.defineProperty get set
+    //观察数据变化 Watcher
+
+    let vm = new MVVM({
+        el: "#app",
+        data: {
+            message:{
+                a:"hello",
+                b:"哈哈哈",
+                c:"你好"
+            }
+        }
+    })
+</script>
